@@ -17,7 +17,7 @@ To create a workday scheduler which displays today's date, the different hours o
 
 https://narcpat.github.io/schedule-it
 
-![Screenshot of Schedule-It]()
+![Screenshot of Schedule-It](./assets/images/Scheduler_Screenshot.jpg)
 
 ## Contribution
 
@@ -25,6 +25,14 @@ Made with ❤️ by Patrick Narcisse (aka narcpat)
 
 ## Credits
 
+A lot of the logic that was used was inspired by the previous Module project "TaskMaster Pro".
+
+I used various cheat sheets including:
+https://htmlcheatsheet.com/jquery/
+https://devhints.io/moment
+
+others are cited in the comments.
+
 ## Special Thanks
 
-A special thanks to Learning Assistants Jon
+A special thanks to Learning Assistants Jon and Royce, as well as classmates who helped during times where I was stuck.
