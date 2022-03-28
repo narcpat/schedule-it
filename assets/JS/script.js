@@ -25,7 +25,13 @@ var loadTasks = function () {
 
 // when save is clicked
 $(".saveBtn").click(function () {
-  var taskText = $(".description").val();
+  var taskText = $(this).siblings("textarea").val();
+  var currentHr = $(this).parent().attr("id");
+  console.log(currentHr, taskText);
+  saveTasks();
 });
 
-// TO DO -- need to use the CSS classes to color code the timeblocks that are past and future
+// load tasks that were previously saved
+loadTasks();
+
+// todo  -- need to use the CSS classes to color code the timeblocks that are past and future
