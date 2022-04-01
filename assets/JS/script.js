@@ -10,7 +10,7 @@ $(document).ready(function () {
     var currentHr = $(this).parent().attr("id");
 
     // Save to local storage
-    localStorage.setItem(taskText, currentHr);
+    localStorage.setItem(currentHr, taskText);
   });
 
   // Load saved data per timeblock
